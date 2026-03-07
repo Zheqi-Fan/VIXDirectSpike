@@ -251,8 +251,11 @@ cd Pricer
 python run_validation.py
 ```
 
+---
+
 ## References
 
 Fan, Z., Ryu, D., & Ye, Y. (2026). *Valuation of VIX derivatives: Incorporating larger spikes in volatility-of-volatility dynamics.*
+
 
 
