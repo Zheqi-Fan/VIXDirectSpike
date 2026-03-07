@@ -1,4 +1,4 @@
-# VIX Spike — Shot Noise Vol-of-Vol Model: Replication Package
+# VIX Spike — Vol-of-Vol Model: Replication Package
 
 > **Replication package for:**
 >
@@ -250,3 +250,4 @@ Run the modular pricer validation:
 cd Pricer
 python run_validation.py
 ```
+
