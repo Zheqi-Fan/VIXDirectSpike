@@ -141,7 +141,7 @@ Shared **Black76 pricing utilities** used across multiple scripts.
 
 ### `Pricer/` — Modular VIX Option Pricing Library
 
-A self-contained, modular implementation of the **reduced shot noise model** (variance jumps only; no level jumps). The FFT and Monte Carlo pricers can be imported independently.
+A self-contained, modular implementation of the model (variance jumps only). The FFT and Monte Carlo pricers can be imported independently.
 
 #### `Pricer/model_config.py`
 Defines **data structures** (`dataclass`) for all model inputs:
@@ -162,7 +162,7 @@ Implements **Carr-Madan FFT pricing** of European VIX call options.
 - Configurable damping parameter $\alpha$, frequency grid spacing $\eta$, FFT size $N = 2^n$
 
 #### `Pricer/monte_carlo.py`
-**Euler-Maruyama Monte Carlo** path simulator for the reduced shot noise model.
+**Euler-Maruyama Monte Carlo** path simulator for the model.
 
 - `MonteCarloSimulator.generate_paths()` — simulates paths of $X_t$ (log-VIX), $m_t$, $v_t$, $L_t^v$
 - `MonteCarloSimulator.price_call_mc()` — computes call prices from terminal VIX paths
@@ -250,4 +250,5 @@ Run the modular pricer validation:
 cd Pricer
 python run_validation.py
 ```
+
 
