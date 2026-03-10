@@ -1,7 +1,6 @@
 # VIX Spike — Vol-of-Vol Model: Replication Package
 <!-- Badges -->
-[![PyPI](https://img.shields.io/badge/PyPI-v0.1.0-blue)](https://github.com/Zheqi-Fan/VIXDirectSpike)
-[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/Zheqi-Fan/VIXDirectSpike/blob/main/LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-v0.1.0-blue)](https://pypi.org/project/VIX-Spike)
 [![GitHub repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Zheqi-Fan/VIXDirectSpike)
 [![Downloads](https://img.shields.io/badge/Downloads-100%2Fmonth-orange)](https://github.com/Zheqi-Fan/VIXDirectSpike)
 
@@ -261,6 +260,7 @@ python run_validation.py
 ## References
 
 Fan, Z., Ryu, D., & Ye, Y. (2026). *Valuation of VIX derivatives: Incorporating larger spikes in volatility-of-volatility dynamics.*
+
 
 
 
