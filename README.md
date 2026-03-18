@@ -5,7 +5,7 @@
 
 > **Replication package for:**
 >
-> Fan, Z., Ryu, D., & Ye, Y. (2026). *Valuation of VIX derivatives: Incorporating larger spikes in volatility-of-volatility dynamics.*
+> Fan, Z., Ryu, D., & Ye, Y. (2026). *Valuation of VIX derivatives: Incorporating larger spikes in volatility-of-volatility dynamics.* Journal of Derivatives, Accepted
 
 This repository contains the full replication code for the above paper. The project studies VIX option pricing under a continuous-time stochastic volatility model augmented with shot-noise variance jumps (compound Poisson process with exponentially decaying magnitudes). Three model specifications are studied:
 
@@ -258,7 +258,7 @@ python run_validation.py
 
 ## References
 
-Fan, Z., Ryu, D., & Ye, Y. (2026). *Valuation of VIX derivatives: Incorporating larger spikes in volatility-of-volatility dynamics.*
+Fan, Z., Ryu, D., & Ye, Y. (2026). *Valuation of VIX derivatives: Incorporating larger spikes in volatility-of-volatility dynamics.* Journal of Derivatives, Accepted
 
 
 
